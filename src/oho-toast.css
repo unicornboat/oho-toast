@@ -1,0 +1,62 @@
+.oho_toast {
+	position: fixed;
+	left: 20px;
+	bottom: 40px;
+	font-size: 14px;
+	opacity: 1;
+	transition: bottom .2s ease-out;
+	z-index: 2147483647;
+}
+
+.oho_toast[hide] {
+	opacity: 0;
+}
+
+.oho_wrapper,
+.oho_countdown {
+	align-items: center;
+	display: flex;
+}
+
+.oho_countdown,
+.oho_close {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	justify-content: center;
+}
+
+.oho_wrapper {
+	backdrop-filter: blur(5px);
+	background-color: rgba(0,0,0,.6);
+	border-radius: 10px;
+	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2), 0 10px 10px 0 rgba(0,0,0,.1);
+	color: #fff;
+	line-height: 18px;
+	justify-content: space-between;
+	overflow: hidden;
+	padding: 20px;
+	width: 200px;
+}
+
+.oho_html {
+	margin-right: 10px;
+	pointer-events: none;
+}
+
+.oho_action {
+	position: relative;
+	height: 30px;
+	user-select: none;
+	width: 30px;
+}
+
+.oho_countdown {}
+
+.oho_close {
+	cursor: pointer;
+	font-size: 30px;
+	text-align: center;
+}
