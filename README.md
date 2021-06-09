@@ -1,4 +1,5 @@
 # OhoToast
+
 A toast library in vanilla JavaScript. The minified version is only 3.81KB and 1.43KB if gzipped.
 
 ## Installation
